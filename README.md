@@ -1,2 +1,2 @@
-# One-Step-Bank-
+# One-Step-Bank
 Online Bank Application
