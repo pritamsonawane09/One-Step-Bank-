@@ -1,0 +1,44 @@
+package com.bankmain.userservice.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@Setter
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+@Entity
+public class BankDetails {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private long bankid;
+
+	private String bankName;
+
+	private String bankAddress;
+
+	private String ifsCcode;
+
+	private String barnachCode;
+
+	private String contactNo;
+
+	private int zipcode;
+
+	private String mirCode;
+
+	private String email;
+
+	
+
+}
